@@ -174,20 +174,22 @@
 
 // Enter cost of 3 item from the user (using float data type) a pencil,a pen and an eraser. you have to output the total cost of the items back to the user as their bill.
 //(add on : you have to add 18% gst tax to the total cost and output the final bill to the user.)
-import java.util.Scanner;
-class bill{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the price of pencil :-");
-        float pencil = sc.nextFloat();
-        System.out.print("Enter the price of pen :-");
-        float pen = sc.nextFloat();
-        System.out.print("Enter the price of eraser :-");
-        float eraser = sc.nextFloat();
-        float totalCost = pencil + pen + eraser;
-        float gst = totalCost * 0.18f;
-        float finalBill = totalCost + gst;
-        System.out.println("Total cost of items is :-" + totalCost);
-        System.out.print("Final bill after adding 18% gst is :-" + finalBill);
-    }
-}
+// import java.util.Scanner;
+// class bill{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print("Enter the price of pencil :-");
+//         float pencil = sc.nextFloat();
+//         System.out.print("Enter the price of pen :-");
+//         float pen = sc.nextFloat();
+//         System.out.print("Enter the price of eraser :-");
+//         float eraser = sc.nextFloat();
+//         float totalCost = pencil + pen + eraser;
+//         float gst = totalCost * 0.18f;
+//         float finalBill = totalCost + gst;
+//         System.out.println("Total cost of items is :-" + totalCost);
+//         System.out.print("Final bill after adding 18% gst is :-" + finalBill);
+//     }
+// }
+
+
